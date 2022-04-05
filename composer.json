@@ -1,5 +1,5 @@
 {
-    "name": "swisnl/omnipay-redsys",
+    "name": "futskito/omnipay-redsys",
     "type": "library",
     "description": "RedSys driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,23 +10,13 @@
         "payment",
         "redsys"
     ],
-    "homepage": "https://github.com/swisnl/omnipay-redsys",
+    "homepage": "https://github.com/futskito/omnipay-redsys",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Cees Geene",
-            "email": "cees@swis.nl"
-        },
-        {
-            "name": "Omnipay RedSys Contributors",
-            "homepage": "https://github.com/swisnl/omnipay-redsys/contributors"
-        }
-    ],
     "autoload": {
         "psr-4": { "Omnipay\\RedSys\\" : "src/" }
     },
     "require": {
-        "php": "^5.6|^7",
+        "php": "^8.0.2",
         "omnipay/common": "^3.0.2",
         "sarciszewski/php-future": "^0.4.2"
     },
